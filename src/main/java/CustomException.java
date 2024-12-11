@@ -6,5 +6,14 @@
  *
  * There is no need to modify this class.
  */
-public class CustomException extends Exception{
+public class CustomException extends Exception {
+    // Default constructor
+    public CustomException() {
+        super();
+    }
+
+    // Constructor with a custom message
+    public CustomException(String message) {
+        super(message);
+    }
 }
